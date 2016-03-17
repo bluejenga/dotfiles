@@ -1,3 +1,5 @@
+set encoding=utf-8
+
 "行番号表示
 :set number
 
