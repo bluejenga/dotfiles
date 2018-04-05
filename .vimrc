@@ -61,8 +61,7 @@ set virtualedit+=block
 "========== 配色・シンタックス ==========
 syntax on
 set background=dark
-"colorscheme desert
-colorscheme molokai
+colorscheme PaperColor
 
 "不可視文字の可視化
 set list
