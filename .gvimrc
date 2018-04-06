@@ -26,3 +26,7 @@ augroup END
 if filereadable(g:save_window_file)
   execute 'source' g:save_window_file
 endif
+
+"メニューバーとツールバーを非表示に
+set guioptions-=m
+set guioptions-=T
