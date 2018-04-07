@@ -22,6 +22,7 @@ set noerrorbells
 "カレント行のハイライト
 set cursorline
 "ステータスライン
+set laststatus=2
 set statusline=%n:\ %f%m%r%=0x%B\ %{(&fenc!=''?&fenc:&enc)}\ %{(&fileformat)}\ %8l/%L行,%v列
 
 "========== 検索 ==========
