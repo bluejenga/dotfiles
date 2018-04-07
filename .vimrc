@@ -91,6 +91,8 @@ set autochdir
 set nobackup
 " unファイルを作らない
 set noundofile
+"swpファイルを作らない
+set noswapfile
 "クリップボードを使えるようにする
 "set clipboard=unnamedplus
 
