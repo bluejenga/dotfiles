@@ -10,8 +10,12 @@ set fileencodings=utf-8,cp932,sjis,iso-2022-jp,euc-jp,cp20932
 "========== 表示 ==========
 "起動時のメッセージを表示しない
 set shortmess+=I
-"右端で折り返さない
-set nowrap
+"右端で折り返す
+set wrap
+"折り返したときに見やすいように
+set linebreak
+set breakindent
+set breakindentopt=shift:2
 "横スクロールを1文字ずつ
 set sidescroll=1
 "行番号表示
