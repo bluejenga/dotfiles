@@ -103,6 +103,9 @@ set noswapfile
 "上位ディレクトリのtagsファイルを探す
 set tags=./tags;
 
+"browse oldfileしたときに一画面に収まるように、ファイル履歴を30にする
+set viminfo+='30,<50,s10,h,rA:,rB:
+
 "========== キーマップ ==========
 "バッファ切替
 "cnoremap lsb ls
@@ -110,6 +113,9 @@ set tags=./tags;
 
 "*で検索時、移動しない
 "nnoremap * *N
+
+"ウィンドウ操作をsで
+"nnoremap s <C-w>
 
 "========== vimrc.local ===========
 augroup vimrc-local
