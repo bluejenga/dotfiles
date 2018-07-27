@@ -115,7 +115,13 @@ set viminfo+='30,<50,s10,h,rA:,rB:
 "nnoremap * *N
 
 "ウィンドウ操作をsで
-"nnoremap s <C-w>
+nnoremap s <C-w>
+
+"表示行単位で上下移動
+nnoremap j gj
+nnoremap k gk
+nnoremap <Down> gj
+nnoremap <Up>   gk
 
 "========== vimrc.local ===========
 augroup vimrc-local
@@ -132,4 +138,3 @@ endfunction
 
 "=========== netrw ============
 let g:netrw_sort_sequence = "[\/]$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$"
-
