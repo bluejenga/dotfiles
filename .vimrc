@@ -87,6 +87,12 @@ if has('syntax')
     call ZenkakuSpace()
 endif
 
+" XMOSのxcファイルのシンタックス
+augroup xc_filetype
+    autocmd!
+    au BufRead,BufNewFile *.xc set filetype=xc
+    au BufRead,BufNewFile *.xc set conceallevel=0 "xcのsyntaxで指定されているconcealがうざいので無効化。
+augroup END
 
 "========== そのた ==========
 "カレントディレクトリを開いているファイルのディレクトリに変更
