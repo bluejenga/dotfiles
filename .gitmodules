@@ -1,3 +1,6 @@
 [submodule "papercolor-theme"]
 	path = papercolor-theme
 	url = https://github.com/NLKNguyen/papercolor-theme.git
+[submodule "xc.vim"]
+	path = xc.vim
+	url = https://github.com/sflower/xc.vim.git
